@@ -1,2 +1,2 @@
 # ReactNative
-Aprendizado React Native
+Anotações de React Native
