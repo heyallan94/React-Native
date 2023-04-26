@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oque é React Native</title>
+</head>
+
+<body>
+    <header>
+      React Native
+    </header>
+    
+    <main>
+      <section>
+        <h2>Oque é React Native</h2>
+        <div class="textos">
+            <ul>
+                <li>Framework de criação nativas mobile </li>
+                <li>Projeto open source mantido pelo facebook desde 2015</li>
+                <li>Multiplataforma, isso é, funciona tanto em Android quando iOS</li>
+                <li>Podemos manipular cada plataforma diferente, mesmo código, outra interface se quiser.</li>
+                <li>Fast Refresh que da feedback instantaneo das alterações. A mudança acontece instantaneamente</li>
+                <li>Uma base de código para plataformas iOS e Android</li>
+                <li>Usa-se Javascript</li>
+                <li>Comunidade ativa com inúmeras bibliotecas e UI frameworks</li>
+            </ul>
+        </div>
+      </section>
+      
+      <section>
+        <div class="fotos">
+            <img src="/ReactNative/Imagens/0001.png" alt="">
+            Tradicionalmente ao criar aplicativos para iOS ou Android é necessário
+            que o usuário faça 2 códigos diferentes.
+        </div>
+      </section>
+      
+      <section>         
+        <div class="fotos">
+            <h2>Como funciona</h2>
+            <img src="/ReactNative/Imagens/0002.png" alt="">
+            Este é o caminho usando RN.
+            O código é feito em JS e depois enviado para as funções 
+            nativas de cada software (iOS e Android)    
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      Allan Santos 2023
+    </footer>
+    
+    <script>
+      
+    </script>
+
+    <style>
+        /* Estilos CSS para a página */
+
+body {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  display: flex;
+  flex-basis: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.textos {
+  flex-basis: calc(50% - 20px);
+  margin-right: 20px;
+  padding: 10px;
+  background-color: #eee;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotos {
+  flex-basis: calc(50% - 20px);
+  padding: 10px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+    </style>
+  </body>
+</html>
+</html>
